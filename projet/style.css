@@ -1,0 +1,110 @@
+.conteiner-img-header{
+    background-image: url(img/bg-num1.png);
+    height: 898px;
+    background-repeat:no-repeat;
+}
+.barmargin{
+    border-bottom: 1px solid #86878c;
+}
+.text-font{
+    font-size: 16px;
+}
+.text-gen-gauche{
+    text-align:right; 
+    margin-top: 60px; 
+}
+.display-flex{
+    display: flex;
+    margin: 70px 0;
+    font-size: 14px;
+    padding: 0;
+    font-family:'Segoe UI',regular, sans-serif;
+}
+.image-gen{
+    margin: 0 15px;
+}
+.titre-gen{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.text-gen-droit{
+    margin-top:37px;
+}
+.point {
+    list-style: none;
+  }
+.point::before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block; 
+    width: 10px;
+    margin-left: 0;
+}
+.conteiner-img-enseignement{
+    background-image: url(img/bg-num3.png);
+    height: 444px;
+    background-repeat:no-repeat;
+
+}
+.container-fluid{
+    padding: 0 !important;
+}
+.small{
+    font-size: 14px !important;
+}
+.img-bg-contact{
+    background-image: url(img/bgContact.png);
+    height: 786px;
+    background-repeat:no-repeat;
+}
+.bg-color-contact{
+    border-bottom: 2px solid white;  
+}
+.noborder{
+    border-width:0px;
+    border:none;
+}
+.ligne{
+    border-bottom: 2px solid white; 
+    width: 45px;
+}
+.ligne-email{
+    background-color:#a10323;
+    border-bottom: 2px solid white; 
+    width: 480px;
+}
+.ligne-codepostal{
+    background-color:#a10323 ;
+    border-bottom: 2px solid white; 
+    width: 120px;
+}
+.ligne-ville{
+    background-color:#a10323 ;
+    border-bottom: 2px solid white; 
+    width: 209px;
+}
+.bg-color-textarea{
+        background-color:#a10323 ;
+    border: 2px solid white; 
+}
+.ligne-nom{
+    background-color:#a10323 ;
+    border-bottom: 2px solid white; 
+    width: 180px;
+}
+.jumbotro {
+    position: relative;
+    top: 50% ;
+    transform: translateY(-50% );
+}
+.headerhover:hover {
+    background-color: #d31f44;
+    font-family:bolder;
+  }
+.whitehover:hover{
+    background-color: white;
+    color: #d31f44 !important;
+    font-family:bolder;
+}
