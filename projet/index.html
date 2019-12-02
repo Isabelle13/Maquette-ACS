@@ -203,20 +203,69 @@
         </section>
 	<!--fin titre pro-->	
 	<!--Nos centres de  formations-->
-			<div class="container">
+        <div class="container">
             <h2 class="mt-5">NOS CENTRES DE FORMATIONS</h2>
-			<img src="img/ligne rouge.png" alt="sous-soustitre">
-			<div class=" d-flex flex-wrap bd-highlight mb-5">
-					<div class="order-1 pt-0 pr-2 pt-2 pb-2 bd-highlight"><img src="img/besancon.png" width="255" height="255" alt=""></div>
-					<div class="bg-image order-2 p-2 bd-highlight"><img class="image" src="img/dijon.png" width="255" height="255" alt=""></div>
-					<div class="order-3 p-2 bd-highlight"><img class="image" src="img/vesoul.png" width="255" height="255" alt=""></div>
-					<div class="order-4 p-2 bd-highlight"><img class="image" src="img/chalon.png" width="255" height="255" alt=""></div>
-					<div class="order-5 pt-0 pr-2 pt-2 pb-2 bd-highlight"><img class="image"  src="img/belfort.png" width="255" height="255" alt=""></div>
-					<div class="order-6 p-2 bd-highlight"><img class="image" src="img/lans.png" width="255" height="255" alt=""></div>
-					<div class="order-7 p-2 bd-highlight"><img class="image" src="img/nevers.png" width="255" height="255" alt=""></div>
-					<div class="order-8 p-2 bd-highlight"><img class="image" src="img/dakar.png" width="255" height="255" alt=""></div>
-					</div>
-		</div>
+            <img src="img/ligne rouge.png" alt="sous-soustitre">
+            <div class=" d-flex flex-wrap bd-highlight mb-5 ">
+
+                <div class="order-1 pt-0 mr-2 mt-2 mb-2 bd-highlight group">
+                    <img class="image" src="img/besancon.png" width="255" height="255"alt="">
+                    <div class="overlay">
+                            <div class="text">Besançon</div>
+                    </div>
+                </div>
+
+                <div class="bg-image order-2 m-2 bd-highlight group">
+                    <img class="image" src="img/dijon.png" width="255" height="255"alt="">
+                    <div class="overlay">
+                            <div class="text">Dijon</div>
+                    </div>
+                </div>
+
+                <div class="order-3 m-2 bd-highlight group">
+                    <img class="image" src="img/vesoul.png" width="255" height="255" alt="">
+                    <div class="overlay">
+                            <div class="text">Vesoul</div>
+                    </div>
+                </div>
+
+                <div class="order-4 m-2 bd-highlight group">
+                    <img class="image" src="img/chalon.png" width="255" height="255" alt="">
+                    <div class="overlay">
+                            <div class="text">Chalon</div>
+                    </div>
+                </div>
+
+                <div class="order-5 mt-0 mr-2 mt-2 mb-2 bd-highlight group">
+                    <img class="image" src="img/belfort.png" width="255" height="255" alt="">
+                    <div class="overlay">
+                            <div class="text">Belfort</div>
+                    </div>
+                </div>
+
+                <div class="order-6 m-2 bd-highlight group">
+                    <img class="image" src="img/lans.png" width="255" height="255" alt="">
+                    <div class="overlay">
+                            <div class="text">lons</div>
+                    </div>
+                </div>
+
+                <div class="order-7 m-2 bd-highlight group">
+                    <img class="image" src="img/nevers.png" width="255" height="255" alt="">
+                                        <div class="overlay">
+                            <div class="text">Never</div>
+                    </div>
+                </div>
+
+                <div class="order-8 m-2 bd-highlight group">
+                    <img class="image" src="img/dakar.png" width="255" height="255" alt="">
+                    <div class="overlay">
+                            <div class="text">Dakar</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
         </section>
 	<!--fin nos centre de formation-->		
     <!--Témoignages-->
@@ -229,7 +278,7 @@
                         <img src="img/ligne blanche.png" class="mb-5" alt="">          
                     <p>J’ai intégré l’ACS pour une reconversion professionelle, sans autre expérience que celle de ma navigation internet, mais plus<br> motivée que jamais à enfin apprendre un métier technique qui me passione. Ajourd’hui je suis développeuse web dans<br> l’entreprise qui m’a accueillie en stage. J’ai encore beaucoup à apprendre, mais mon parcours prouve qu’avec du travail et <br>de la persévérance, tout est possible !</p><br>
                     <br><p>Julie | <span class="font-weight-bold"> Wild Web Lions - Belfort</span> | 2018</p></br>
-                    <br> <span class=" p-3 border border-white">Voir tous les témoignages</span>
+                    <br> <span class=" headerhover p-3 border border-white">Voir tous les témoignages</span>
                 </div>
             </div>
     <!--fin témoignages--> 
@@ -240,7 +289,7 @@
             <img class="mb-5" src="img/ligne-blanc.png" alt="">
             <div class="d-flex">
                 <div>
-                    <div class="d-flex">
+                    <div class="d-flex mb-4">
                         <div class="name mb-4">
                             <label class="ligne mb-0" for="name">NOM*</label>
                             <input class="ligne-nom noborder" type="text" />
@@ -251,10 +300,10 @@
                         </div>
                     </div>
                     <div class="email mb-4">
-                        <label class=" bg-color-contact mb-0" for="name">EMAIL*</label>
+                        <label class=" bg-color-contact mb-4" for="name">EMAIL*</label>
                         <input class="ligne-email noborder" type="text" />
                     </div>
-                    <div class="d-flex">
+                    <div class="d-flex mb-4">
                         <div class="mb-4">
                             <label class="bg-color-contact mb-0" for="name">CODE POSTAL*</label>
                             <input class="ligne-codepostal noborder" type="text" />
@@ -277,26 +326,28 @@
             <div>
                 <form>
                     <P>MESSAGE*</P>
-                    <textarea class="bg-color-textarea " cols="150" id="message" name="message" rows="7"></textarea>                   
+                    <textarea class="bg-color-textarea " cols="150" id="message" name="message" rows="7"></textarea>
                 </form>
                 <div class="d-flex mt-4">
-                <a class="border border-white px-5 py-3 mb-0 d-inline-flex  text-white font-weight-bold mx-auto whitehover">Envoyer</a>
-            </div>
+                    <a
+                        class="border border-white px-5 py-3 mb-0 d-inline-flex text-white font-weight-bold mx-auto whitehover">Envoyer</a>
+                </div>
             </div>
         </div>
+    </div>
 
     <!--fin contact-->
     <!--Logos-->
-            <div class="logo">
-                    <div class="d-flex-column justify-content-around  mt-4">     
-                        <div class="d-flex justify-content-between align-items-start">
-            <img src="img/logo-onlineformapro.png" class="mt-5"   width="377" height="73" alt="">
-            <img src="img/logo-aformac.png" width="219" height="161" alt="">
-            <img src="img/logo-acs.png" class="mt-5" width="400" height="100" alt="">
-            <img src="img/logo-access-robotique.png"class="mt-5" width="400" height="104" alt="">
-                        </div>
-                    </div>
-                </div> 
+        <div class="logo">
+            <div class=" justify-content-around  mt-4">
+                <div class="d-flex justify-content-between align-items-start">
+                    <img src="img/logo-onlineformapro.png" class="mt-5" width="377" height="73" alt="">
+                    <img src="img/logo-aformac.png" width="219" height="161" alt="">
+                    <img src="img/logo-acs.png" class="mt-5" width="400" height="100" alt="">
+                    <img src="img/logo-access-robotique.png" class="mt-5" width="400" height="104" alt="">
+                </div>
+            </div>
+        </div>
     <!--Fin logos-->    
     <!--footer-->
         <footer >
