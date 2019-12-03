@@ -5,6 +5,7 @@
 }
 .barmargin{
     border-bottom: 1px solid #86878c;
+    background-color:  rgba(0, 0, 0, 0.4);
 }
 .text-font{
     font-size: 16px;
@@ -71,26 +72,26 @@
     width: 45px;
 }
 .ligne-email{
-    background-color:#a10323;
+    background-color:#a80727;
     border-bottom: 2px solid white; 
     width: 480px;
 }
 .ligne-codepostal{
-    background-color:#a10323 ;
+    background-color:#b40d2f;
     border-bottom: 2px solid white; 
     width: 120px;
 }
 .ligne-ville{
-    background-color:#a10323 ;
+    background-color:#b40d2f ;
     border-bottom: 2px solid white; 
     width: 209px;
 }
 .bg-color-textarea{
-        background-color:#a10323 ;
+        background-color:#c7183c ;
     border: 2px solid white; 
 }
 .ligne-nom{
-    background-color:#a10323 ;
+    background-color:#a80727 ;
     border-bottom: 2px solid white; 
     width: 180px;
 }
@@ -101,24 +102,20 @@
 }
 .headerhover:hover {
     background-color: #d31f44;
-    font-family:bolder;
-  }
+}
 .whitehover:hover{
     background-color: white;
     color: #d31f44 !important;
-    font-family:bolder;
 }
 .title {
     font-size: 30px;
     color: white;
-    }
-    
-    footer {
+}  
+footer {
     min-height: 150px;
     background-color: #3E3E3E;
-    }
-    
-    .section5 {
+}   
+.section5 {
     text-align: center;
     font-family: sans-serif;
     font: size 35px;
@@ -127,52 +124,49 @@
     padding: 50px;
     min-height: 300px;
     margin: 0;
-    }
-    
-    .section6 {
+}
+.section6 {
     padding: 50px;
     background-color: white;
     color: black;
     min-height: 300px;
-    
-    }
-    
-    .img-bg-témoignages {
+}
+.img-bg-témoignages {
     background-image: url(img/temoignage-bg.png);
     min-height: 602px;
-    
-    }  
-    .section9 {
+}
+.section9 {
     min-height: 251px;
-    }
-    .group {
-        position: relative;
-      }  
-      .overlay {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 100%;
-        width: 100%;
-        opacity: 0;
-        transition: .5s ease;
-        background-color: #d31f44;
-      }
-      
-      .group:hover .overlay {
-        opacity: 0.6;
-      }
-      
-      .text {
-        color: white;
-        font-size: 20px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        text-align: center;
-      }
+}
+.group {
+    position: relative;
+ } 
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #d31f44;
+}     
+.group:hover .overlay {
+    opacity: 0.6;
+}     
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.opacity { 
+    background: rgba(126, 118, 118, 0.4); 
+} 
